@@ -194,3 +194,54 @@ background: indigo;
 .ten{
 background: dodgerblue;
 }
+
+/* about.html-unique CSS starts here */
+
+.container1{
+    border-top: 1px dashed black;
+    flex-basis: content;
+    margin: 5vh 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-around;
+    flex-flow: wrap row;
+  }
+  
+  .buttonBoxContainer{
+    dixplay: flex;
+    width: 50%;
+    padding: 3vh;
+    margin: 2vh 0;
+  }
+  
+  .buttonBox{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: stretch;
+      padding: 2vh 0;
+    border-bottom: 1px dashed black;
+  }
+  
+  .buttonBox img{
+    width: 100%;
+  }
+  
+  .learnmore{
+    width: 33%;
+    border-radius: 1vh;
+    border: 2px solid black;
+    margin-top: 6px;
+    padding: 7px 25px;
+    backcground: #ffffff;
+  }
+
+  .buttonBox img{
+      margin-bottom: 10px;
+  }
+
+  .bannertext{
+      display: flex;
+      flex-direction: column;
+      padding: 2vh;
+  }
