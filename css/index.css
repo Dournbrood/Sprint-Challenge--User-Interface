@@ -208,7 +208,7 @@ background: dodgerblue;
   }
   
   .buttonBoxContainer{
-    dixplay: flex;
+    display: flex;
     width: 50%;
     padding: 2vh;
     margin: 2vh 0;
