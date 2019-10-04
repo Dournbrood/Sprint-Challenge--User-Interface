@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,55 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.toolbar nav{
+    display: flex;
+    width: 90%;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.banner{
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.one{
+background: teal;
+}
+.two{
+background: gold;
+}
+
+.three{
+background: cadetblue;
+}
+.four{
+background: coral;
+}
+.five{
+background: crimson;
+}
+.six{
+background: forestgreen;
+}
+.seven{
+background: darkorchid;
+}
+.eight{
+background: hotpink;
+}
+.nine{
+background: indigo;
+}
+.ten{
+background: dodgerblue;
 }
