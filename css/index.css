@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +143,111 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.toolbar nav{
+    display: flex;
+    width: 90%;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.banner{
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.one{
+background: teal;
+}
+.two{
+background: gold;
+}
+
+.three{
+background: cadetblue;
+}
+.four{
+background: coral;
+}
+.five{
+background: crimson;
+}
+.six{
+background: forestgreen;
+}
+.seven{
+background: darkorchid;
+}
+.eight{
+background: hotpink;
+}
+.nine{
+background: indigo;
+}
+.ten{
+background: dodgerblue;
+}
+
+/* about.html-unique CSS starts here */
+
+.container1{
+    border-top: 1px dashed black;
+    flex-basis: content;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-around;
+    flex-flow: wrap row;
+  }
+  
+  .buttonBoxContainer{
+    display: flex;
+    width: 50%;
+    padding: 2vh;
+    margin: 2vh 0;
+  }
+  
+  .buttonBox{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: stretch;
+      padding: 2vh 0;
+    border-bottom: 1px dashed black;
+  }
+  
+  .buttonBox img{
+    width: 100%;
+  }
+  
+  .learnmore{
+    width: 45%;
+    border-radius: 1vh;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    border: 2px solid black;
+    margin-top: 2vh;
+    padding: 7px 25px;
+    background: #ffffff;   
+  }
+
+  .buttonBox img{
+      margin-bottom: 10px;
+  }
+
+  .bannertext{
+      display: flex;
+      flex-direction: column;
+      padding: 2vh;
+  }
+
+  .bottommargin{
+    margin-bottom: 3vh;
+  }
